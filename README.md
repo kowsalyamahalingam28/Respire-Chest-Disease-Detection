@@ -1,8 +1,3 @@
-# End-to-End-Chest-Disease-Classification
-By [<b>Hema Kalyan Murapaka</b>](https://kalyanm45.github.io)
-
-**Special Thanks to GitHub Sponsors**
-
 ## About The Project
 
 Medical imaging has transformed healthcare by providing detailed insights into various diseases, particularly in the chest area. However, the current reliance on manual interpretation of imaging data by radiologists leads to delays, errors, and inefficiencies in diagnosing chest diseases. With a growing demand for healthcare services and a shortage of radiologists in some areas, there's an urgent need for automated systems to accurately detect and classify chest diseases from imaging data. These systems would not only improve diagnostic accuracy and efficiency but also alleviate strain on healthcare resources, enhancing patient care and outcomes.
@@ -75,14 +70,14 @@ If you prefer to use Docker, you can install and run the project using a Docker 
    - Open your terminal or command prompt.
    - Run the following command to pull the Docker image from DockerHub:
      ```
-     docker pull kalyan45/Chest-detection-app
+     docker pull kowsalyamahalingam28/Chest-detection-app
      ```
      This command downloads the Docker image from the DockerHub.
 
 2. **Run the Docker Container**
    - Start the Docker container by running the following command. Adjust the port mapping as needed:
      ```
-     docker run -p 5000:5000 kalyan45/Chest-detection-app
+     docker run -p 5000:5000 kowsalyamahalingam28/Chest-detection-app
      ```
      This command launches the project within a Docker container.
 
